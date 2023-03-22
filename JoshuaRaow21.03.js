@@ -8,24 +8,26 @@ let nom = "Jean";
 let somme = 12 + 12;
 
 //Exo4
-let chaine = chaine.toUpperCase();
+let chaine = "chaine de caracteres";
+let maj = chaine.toUpperCase()
 
 //Exo5
 let tableau = [1,2,3,4,5];
 let longueur = tableau.length;
+return tableau
 
 //Exo6
 let objet = {nom: 'Joshua', age:24};
-console.log(objet['nom']);
+return objet['nom'];
 
 //Exo7
-let nombre = 12.98;
-document.write(nombre.toFixed(2));
+let nombre = 12.98316745;
+return nombre.toFixed(2);
 
 //Exo8
-let date = new Date ('March 21, 23 16:48:35');
-console.log(date.getMonth());
+let date = new Date;
+return date.getMonth();
 
 //Exo9
 let tableau2 = ["tableau","de","chaines"];
-console.log(join());
+return tableau2.join();
